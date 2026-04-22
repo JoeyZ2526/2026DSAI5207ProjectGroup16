@@ -67,6 +67,8 @@ The final submission package organizes experiment outputs by epoch setting and a
 - `images/`  
   Image folder containing the 809 Pokemon images used in the project.
 
+Original dataset source: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types/data?select=images
+
 ### 3.2 Per-Epoch Experiment Folders
 
 The folders `30/`, `60/`, `100/`, and `150/` correspond to the four epoch caps used in the final study.
@@ -203,20 +205,3 @@ For result inspection, the most important files are:
 1. `summary.xlsx`
 2. `summary_fig.ipynb`
 3. the `figures/` folders inside each epoch directory
-
----
-
-## 6. Final Remarks
-
-This submission package supports three levels of inspection:
-
-1. **Quantitative comparison**  
-   Use `summary.xlsx`
-
-2. **Trend visualization**  
-   Use `summary_fig.ipynb`
-
-3. **Per-setting details**  
-   Use the corresponding epoch folder (`30/`, `60/`, `100/`, `150/`)
-
-The final study compares the same three lightweight CNN variants under four training durations in a controlled small-scale multi-label setting.
